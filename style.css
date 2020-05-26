@@ -1,0 +1,43 @@
+body {
+    background-color: #142850;
+}
+
+#container {
+    width: 800px;
+    margin: auto;
+}
+
+header {
+    border: solid;
+    padding: 40px;
+    height: 80px;
+}
+
+header h1{
+    font-size: 3rem;
+}
+
+nav {
+    border: solid;
+    padding: 8px 40px;
+    background-color: #142850;
+    color: #00909e;
+    border-color: #27496d;
+    font-size: 1.3rem;
+}
+
+#contents {
+    border: solid;
+    padding: 40px;
+    height: 400px;
+    background-image : url("image/img.jpg") ;
+}
+
+footer {
+    border: solid;
+    border-color: #dae1e7;
+    padding: 40px;
+    height: 40px;
+    background-color: #142850;
+    color: #00909e;
+}
