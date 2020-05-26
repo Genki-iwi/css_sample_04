@@ -1,43 +1,40 @@
 body {
-    background-color: #142850;
+    background: url("image/red.jpg");
 }
 
 #container {
     width: 800px;
     margin: auto;
+    background: url("image/red.jpg") no-repeat 50% 50%;
 }
 
 header {
-    border: solid;
     padding: 40px;
     height: 80px;
+    background-color: #142850;
 }
 
-header h1{
+header h1 {
     font-size: 3rem;
 }
 
 nav {
-    border: solid;
     padding: 8px 40px;
     background-color: #142850;
-    color: #00909e;
-    border-color: #27496d;
+    color: #dae1e7;
     font-size: 1.3rem;
 }
 
 #contents {
-    border: solid;
     padding: 40px;
     height: 400px;
-    background-image : url("image/img.jpg") ;
+    color: #dae1e7;
+    background-color: #142850;
 }
 
 footer {
-    border: solid;
-    border-color: #dae1e7;
     padding: 40px;
     height: 40px;
     background-color: #142850;
-    color: #00909e;
+    color: #dae1e7;
 }
